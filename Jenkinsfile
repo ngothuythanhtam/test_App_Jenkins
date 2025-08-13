@@ -1,5 +1,5 @@
 pipeline{
-    agents any
+    agent any
 
     tools {
         nodejs 'NodeJS_24.5.0'
