@@ -1,0 +1,20 @@
+{
+  "name": "apps",
+  "version": "1.0.0",
+  "description": "Example App with Jenkins",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "build": "echo 'Building the app...'",
+    "start": "nodemon index.js"
+  },
+  "author": "tamngo",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "mocha": "^11.7.1",
+    "nodemon": "^3.1.10"
+  }
+}
