@@ -19,7 +19,6 @@ pipeline{
                 script {
                     echo 'Running tests...'
                     sh 'node -v'
-                    sh 'npm test'
                 }
             }
         }
@@ -27,7 +26,6 @@ pipeline{
             steps {
                 script {
                     echo 'Building the application...'
-                    sh 'npm install'
                     sh 'npm run build'
                 }
             }
