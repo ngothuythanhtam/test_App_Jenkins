@@ -19,14 +19,15 @@ pipeline{
                 script {
                     echo 'Running tests...'
                     sh 'node -v'
+                    sh 'npm -v'
                 }
             }
         }
         stage('Build') {
             steps {
                 script {
-                    echo 'Building the application...'
                     sh 'npm run build'
+                    echo 'Building the application...'
                 }
             }
         }
